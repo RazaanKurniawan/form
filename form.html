@@ -1,1 +1,70 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <table align="center" border="3" width="1200px" height="500px">
+        <!-- Start Header -->
+        <tr>
+            <td colspan="2" height="50px" align="center" style="background-color:orange"><h1>Data Siswa</h1></td>
+        </tr>
+        <!-- End Header -->
+        <!-- Start Side Board -->
+        <tr>
+            <td width="500px" height="300px">
+                <li><a href="index.html">&#9775; Menu</a></li>
+                <li><a href="form.html">&#9775; Formulir Pendaftaran</a></li>
+                <li><a href="table.html">&#9775; Hasil Pendaftaran</a></li>
+            </td>
+        <!-- End Side Board -->
+        <!-- Start Content -->
+            <td width="900px" height="300px">
+                <form action="">
+                    <label for="nis">NIS : </label>
+                    <input type="number" name="nis" id="" >
+                    <br>
+                    <label for="nama">Nama Lengkap : </label>
+                    <input type="text" name="nama" id="" placeholder="Nama Lengkap...">
+                    <br>
+                    <label for="tmpt-lahir">Tempat Lahir :</label>
+                    <input type="text" name="tmpt-lahir" id="" placeholder="Tempat Lahir...">
+                    <br>
+                    <label for="tgl-lahir">Tanggal Lahir :</label>
+                    <input type="date" name="tgl-lahir" id="">
+                    <br>
+                    <label for="jk">Jenis Kelamin : </label>
+                    <input type="radio" name="jk"> Laki Laki
+                    <input type="radio" name="jk"> Perempuan
+                    <br>
+                    <label for="hobi">Hobi : </label>
+                    <input type="checkbox" name="hobi" id=""> Gim 
+                    <input type="checkbox" name="hobi" id=""> Olahraga 
+                    <input type="checkbox" name="hobi" id=""> Video 
+                    <br>
+                    <label for="kelas">Kelas : </label>
+                    <select name="" id="">
+                        <option value="">12 RPL 1</option>
+                        <option value="">12 RPL</option>
+                    </select>
+                    <br>
+                    <label for="alamat">Alamat : </label> <br>
+                    <textarea name="alamat" id="" cols="60" rows="7"></textarea> <br>
+                    <br>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </form>
+            </td>
+        </tr>
+        <!-- End Content -->
+        <!-- Start Footer -->
+        <tr>
+            <td colspan="2" height="30px" align="center" style="background-color:orange">&copy;copyright Razaan</td>
+        </tr>
+        <!-- End Footer -->
+    </table>
+</body>
+</html>
